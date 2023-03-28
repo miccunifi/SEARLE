@@ -1,7 +1,11 @@
 # SEARLE
 ### Zero-shot Composed Image Retrieval With Textual Inversion
 
-This is the **official repository** of the [**paper**](https://github.com/miccunifi/SEARLE) "*Zero-**S**hot Compos**E**d Im**A**ge **R**etrieval with Textua**L** Inv**E**rsion*" (**SEARLE**).
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2303.15247)
+[![GitHub Stars](https://img.shields.io/github/stars/miccunifi/SEARLE?style=social)](https://github.com/miccunifi/SEARLE)
+
+
+This is the **official repository** of the [**paper**](https://arxiv.org/abs/2303.15247) "*Zero-**S**hot Compos**E**d Im**A**ge **R**etrieval with Textua**L** Inv**E**rsion*" (**SEARLE**).
 
 >You are currently viewing the code and model repository. If you are looking for more information about the newly-proposed dataset **CIRCO** see the [repository](https://github.com/miccunifi/CIRCO).
 
@@ -27,6 +31,18 @@ Workflow of our method. *Top*: in the pre-training phase, we generate pseudo-wor
 * [**Alberto Del Bimbo**](https://scholar.google.com/citations?user=bf2ZrFcAAAAJ&hl=en)
 
 **\*** Equal contribution. Author ordering was determined by coin flip.
+
+## Citation
+```bibtex
+@misc{baldrati2023zeroshot,
+      title={Zero-Shot Composed Image Retrieval with Textual Inversion}, 
+      author={Alberto Baldrati and Lorenzo Agnolucci and Marco Bertini and Alberto Del Bimbo},
+      year={2023},
+      eprint={2303.15247},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## Acknowledgements
 This work was partially supported by the European Commission under European Horizon 2020 Programme, grant number 101004545 - ReInHerit.
