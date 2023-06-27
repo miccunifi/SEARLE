@@ -4,6 +4,12 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2303.15247)
 [![GitHub Stars](https://img.shields.io/github/stars/miccunifi/SEARLE?style=social)](https://github.com/miccunifi/SEARLE)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on?p=zero-shot-composed-image-retrieval-with)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on-1)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-1?p=zero-shot-composed-image-retrieval-with)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=zero-shot-composed-image-retrieval-with)
+
+
+🔥🔥 **[27/06/2023] We release the proposed CIRCO dataset [HERE](https://github.com/miccunifi/CIRCO)**
 
 This is the **official repository** of the [**paper**](https://arxiv.org/abs/2303.15247) "*Zero-**S**hot Compos**E**d Im**A**ge **R**etrieval with Textua**L** Inv**E**rsion*" (**SEARLE**).
 
