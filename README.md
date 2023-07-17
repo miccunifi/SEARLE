@@ -5,6 +5,13 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2303.15247)
 [![GitHub Stars](https://img.shields.io/github/stars/miccunifi/SEARLE?style=social)](https://github.com/miccunifi/SEARLE)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on?p=zero-shot-composed-image-retrieval-with)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on-1)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-1?p=zero-shot-composed-image-retrieval-with)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=zero-shot-composed-image-retrieval-with)
+
+
+🔥🔥 **[17/07/2023] Release of the training/validation code and pre-trained SEARLE models**
+
 This is the **official repository** of the [**paper**](https://arxiv.org/abs/2303.15247) "*Zero-**S**hot Compos**E**d
 Im**A**ge **R**etrieval with Textua**L** Inv**E**rsion*" (**SEARLE**).
 
@@ -533,3 +540,6 @@ The predictions file will be saved in the `data/test_submissions/{dataset}/` fol
 
 This work was partially supported by the European Commission under European Horizon 2020 Programme, grant number
 101004545 - ReInHerit.
+
+## LICENSE
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />All material is made available under [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicate any changes** that you've made.
