@@ -284,7 +284,7 @@ class CIRCODataset(Dataset):
         # Ensure input arguments are valid
         if mode not in ['relative', 'classic']:
             raise ValueError("mode should be in ['relative', 'classic']")
-        if split not in ['test', 'val', 'test_gt']:
+        if split not in ['test', 'val']:
             raise ValueError("split should be in ['test', 'val']")
 
         # Load COCO images information

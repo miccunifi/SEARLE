@@ -181,7 +181,7 @@ def train_one_epoch(train_loader: DataLoader, clip_model: CLIP, epoch: int, phi:
                     token_gpt_phrases = [gpt_phrase.replace(w, " $ ") for w, gpt_phrase in
                                          zip(batch_concepts, reg_gpt_phrases)]
 
-                    tokenized_reg_gpt_phrases = clip.tokenize(token_gpt_phrases, truncate=True).to(device)
+                    tokenized_reg_gpt_phrases = clip.tokenize(reg_gpt_phrases, truncate=True).to(device)
                     tokenized_tokens_gpt_phrases = clip.tokenize(token_gpt_phrases, truncate=True).to(device)
 
                     gpt_phrases_embeddings = clip_model.encode_text(tokenized_reg_gpt_phrases)
