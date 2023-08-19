@@ -29,7 +29,7 @@ def associate_image_concepts(args):
     feature_dim = model.visual.output_dim
 
     # Number of concepts per image
-    concepts_per_image = 100
+    concepts_per_image = 250
 
     # Define the preprocess pipeline
     if args.preprocess_type == 'targetpad':

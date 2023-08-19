@@ -79,7 +79,7 @@ def oti_inversion(args):
 
     # Load the similar concepts into a dictionary
     similar_concepts_df = pd.read_csv(PROJECT_ROOT / "data" / "similar_concepts" / args.dataset.lower() / args.split /
-                                      f"{args.clip_model_name.replace('/', '')}_top_100_ensembling_image_texts.csv")
+                                      f"{args.clip_model_name.replace('/', '')}_top_250_ensembling_image_texts.csv")
     name_to_concepts = {str(el[0]): el[1:] for el in similar_concepts_df.values.tolist()}
 
     # Filter out problematic concepts from the GPT phrases

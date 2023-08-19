@@ -74,7 +74,8 @@ git clone https://github.com/miccunifi/SEARLE
 ```sh
 conda create -n searle -y python=3.8
 conda activate searle
-pip install torch==1.11.0 torchvision==0.12.0 comet-ml==3.33.6 transformers==4.24.0 tqdm pandas==1.4.2
+conda install -y -c pytorch pytorch=1.11.0 torchvision=0.12.0
+pip install comet-ml==3.33.6 transformers==4.24.0 tqdm pandas==1.4.2
 pip install git+https://github.com/openai/CLIP.git
 ```
 
@@ -370,12 +371,12 @@ python src/train_phi.py --exp-name <str> --clip-model-name <str> --imagenet-data
     --weight-decay <float>          Weight decay (default=0.01)
     --num-epochs <int>              Number of epochs (default=100)
     --lambda-distil <float>         Weight of the distillation loss (default=1)
-    --lambda-gpt <float>            Weight of the GPT loss (default=0.25)
+    --lambda-gpt <float>            Weight of the GPT loss (default=0.75)
     --temperature <float>           Temperature for the distillation loss (default=0.25)
     --validation-frequency <int>    Validation frequency expressed in epochs (default=1)
     --save-frequency <int>          Saving frequency expressed in epochs (default=5)
     --save-training <store_true>    Whether save the model checkpoints or not
-    --top-k-concepts <int>          Number of concepts associated to each image (default=15) 
+    --top-k-concepts <int>          Number of concepts associated to each image (default=150)
     --api-key <str>                 API key for Comet (default=None)
     --workspace <str>               Workspace for Comet (default=None)
     --seed <int>                    Seed for the random number generator (default=42)

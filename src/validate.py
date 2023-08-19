@@ -138,7 +138,7 @@ def cirr_generate_val_predictions(clip_model: CLIP, relative_val_dataset: Datase
     """
 
     # Define the dataloader
-    relative_val_loader = DataLoader(dataset=relative_val_dataset, batch_size=32, num_workers=8,
+    relative_val_loader = DataLoader(dataset=relative_val_dataset, batch_size=32, num_workers=10,
                                      pin_memory=False, collate_fn=collate_fn)
     predicted_features_list = []
     target_names_list = []

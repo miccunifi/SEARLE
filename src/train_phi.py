@@ -255,7 +255,7 @@ def train_phi(args):
 
     # Load the concepts associated with each image
     similar_concepts_df = pd.read_csv(PROJECT_ROOT / 'data' / "similar_concepts" / 'imagenet' / 'test' /
-                                      f"{args.clip_model_name.replace('/', '')}_top_100_ensembling_image_texts.csv")
+                                      f"{args.clip_model_name.replace('/', '')}_top_250_ensembling_image_texts.csv")
     name_to_concepts = {str(el[0]): el[1:] for el in similar_concepts_df.values.tolist()}
 
     # Define CIRR validation set
@@ -337,13 +337,13 @@ def parse_args():
     parser.add_argument("--weight-decay", type=float, default=0.01, help="Weight decay")
     parser.add_argument("--num-epochs", default=100, type=int, help="Number training epochs")
     parser.add_argument("--lambda-distil", type=float, default=1, help="Distillation loss weight")
-    parser.add_argument("--lambda-gpt", type=float, default=0.25, help="GPT loss weight")
+    parser.add_argument("--lambda-gpt", type=float, default=0.75, help="GPT loss weight")
     parser.add_argument("--temperature", default=0.25, type=float, help="Distillation loss temperature")
     parser.add_argument("--validation-frequency", default=1, type=int, help="Validation frequency expressed in epochs")
     parser.add_argument("--save-frequency", default=5, type=int, help="Saving frequency expressed in epochs")
     parser.add_argument("--save-training", dest="save_training", action='store_true',
                         help="Whether save the model checkpoints or not")
-    parser.add_argument("--top-k-concepts", type=int, default=15, help="Number of concepts associated to each image")
+    parser.add_argument("--top-k-concepts", type=int, default=150, help="Number of concepts associated to each image")
 
     parser.add_argument("--api-key", type=str, help="Api for Comet logging")
     parser.add_argument("--workspace", type=str, help="Workspace of Comet logging")
