@@ -2,23 +2,26 @@
 
 ### Zero-shot Composed Image Retrieval With Textual Inversion
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2303.15247)
+[![arXiv](https://img.shields.io/badge/ICCV2023-Paper-<COLOR>.svg)](https://arxiv.org/abs/2303.15247)
 [![Generic badge](https://img.shields.io/badge/Demo-Link-blue.svg)](https://circo.micc.unifi.it/demo)
 [![Generic badge](https://img.shields.io/badge/Video-YouTube-red.svg)](https://www.youtube.com/watch?v=qxpNb9qxDQI)
 [![Generic badge](https://img.shields.io/badge/Slides-Link-orange.svg)](/assets/Slides.pptx)
 [![Generic badge](https://img.shields.io/badge/Poster-Link-purple.svg)](/assets/Poster.pdf)
 [![GitHub Stars](https://img.shields.io/github/stars/miccunifi/SEARLE?style=social)](https://github.com/miccunifi/SEARLE)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on?p=zero-shot-composed-image-retrieval-with)\
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on-1)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-1?p=zero-shot-composed-image-retrieval-with)\
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-composed-image-retrieval-with/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=zero-shot-composed-image-retrieval-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=isearle-improving-textual-inversion-for-zero)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on-1)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-1?p=isearle-improving-textual-inversion-for-zero)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on?p=isearle-improving-textual-inversion-for-zero)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on-6)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-6?p=isearle-improving-textual-inversion-for-zero)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on-4)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-4?p=isearle-improving-textual-inversion-for-zero)
 
 
-🔥🔥 **[09/09/2023] Release of SEARLE [demo](https://circo.micc.unifi.it/demo) based on the [CIRCO](https://github.com/miccunifi/CIRCO) dataset**
+🔥🔥 **[2024/05/07] The extended version of our ICCV 2023 paper is now public: [iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval
+](https://arxiv.org/abs/2405.02951). The code will be released upon acceptance.**
 
-This is the **official repository** of the [**paper**](https://arxiv.org/abs/2303.15247) "*Zero-**S**hot Compos**E**d
-Im**A**ge **R**etrieval with Textua**L** Inv**E**rsion*" (**SEARLE**).
-
+This is the **official repository** of the [**ICCV 2023 paper**](https://arxiv.org/abs/2303.15247) "*Zero-Shot Composed
+Image Retrieval with Textual Inversion*" and its [**extended version**](https://arxiv.org/abs/2405.02951) "*iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval*".
+ 
 > You are currently viewing the code and model repository. If you are looking for more information about the
 > newly-proposed dataset **CIRCO** see the [repository](https://github.com/miccunifi/CIRCO).
 
@@ -45,15 +48,22 @@ inference time on ZS-CIR, we map the reference image to a pseudo-word $S_*$ and 
 caption. Then, we use CLIP text encoder to perform text-to-image retrieval.
 
 ## Citation
+```bibtex
+@article{agnolucci2024isearle,
+  title={iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval}, 
+  author={Agnolucci, Lorenzo and Baldrati, Alberto and Bertini, Marco and Del Bimbo, Alberto},
+  journal={arXiv preprint arXiv:2405.02951},
+  year={2024},
+}
+```
 
 ```bibtex
-@misc{baldrati2023zeroshot,
-      title={Zero-Shot Composed Image Retrieval with Textual Inversion}, 
-      author={Alberto Baldrati and Lorenzo Agnolucci and Marco Bertini and Alberto Del Bimbo},
-      year={2023},
-      eprint={2303.15247},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{baldrati2023zero,
+  title={Zero-Shot Composed Image Retrieval with Textual Inversion},
+  author={Baldrati, Alberto and Agnolucci, Lorenzo and Bertini, Marco and Del Bimbo, Alberto},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={15338--15347},
+  year={2023}
 }
 ```
 
