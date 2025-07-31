@@ -9,13 +9,6 @@
 [![Generic badge](https://img.shields.io/badge/Poster-Link-purple.svg)](/assets/Poster.pdf)
 [![GitHub Stars](https://img.shields.io/github/stars/miccunifi/SEARLE?style=social)](https://github.com/miccunifi/SEARLE)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=isearle-improving-textual-inversion-for-zero)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on-1)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-1?p=isearle-improving-textual-inversion-for-zero)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on?p=isearle-improving-textual-inversion-for-zero)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on-6)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-6?p=isearle-improving-textual-inversion-for-zero)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/isearle-improving-textual-inversion-for-zero/zero-shot-composed-image-retrieval-zs-cir-on-4)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-4?p=isearle-improving-textual-inversion-for-zero)
-
-
 🔥🔥 **[2024/05/07] The extended version of our ICCV 2023 paper is now public: [iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval
 ](https://arxiv.org/abs/2405.02951). The code will be released upon acceptance.**
 
